@@ -1211,6 +1211,16 @@ section,
   transition: 0.3s;
 }
 
+.menu .menu-content p {
+  color: var(--heading-color);
+  background: var(--background-color); 
+  padding-right: 10px;
+  position: relative;
+  z-index: 3; 
+  font-weight: 700;
+  transition: 0.3s;
+}
+
 .menu .menu-content a:hover {
   color: var(--accent-color);
 }
